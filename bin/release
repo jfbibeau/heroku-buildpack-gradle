@@ -40,4 +40,6 @@ if [ ! -f $BUILD_DIR/Procfile ]; then
   else
     echo "{}"
   fi
+else
+  echo "{}"
 fi
